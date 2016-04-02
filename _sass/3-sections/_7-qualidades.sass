@@ -1,0 +1,79 @@
+#qualidades
+	background-color: $cinza-claro
+	.row
+		max-width: 570px
+		margin: 20px auto 20px auto
+
+		.icon
+			max-width: 50px
+			margin: 10px auto
+
+	.qualidades
+
+
+		span
+			font-style: italic
+			font-weight: 400
+			display: inline-block
+			position: relative
+			z-index: 1
+			margin-left: 8px
+
+			&:after
+				content: ''
+				display: block			
+				height: 100%
+				width: 110%
+				z-index: 0
+				position: absolute
+				top: 0px
+				left: -5px
+				transform: rotate(24deg) skewY(-24deg)
+
+		h5
+			margin-top: 10px
+			margin-bottom: 40px
+		p
+			max-width: 240px
+
+	.ganhe
+		text-align: center	
+		span
+			&:after
+				background: fade-out($v-4, 0.7)
+
+	.esqueça
+		text-align: center
+		span
+			&:after
+				background: fade-out(red, 0.7)
+		.direita
+			float: right
+
+
+@media (max-width: 570px)
+
+	#qualidades
+
+		.row
+			max-width: 100%
+			margin: 0
+
+			.icon
+				margin: 20px auto
+
+		.qualidades
+			p
+				max-width: none
+
+		.esqueça
+			.direita
+				float: none
+
+@media (max-width: 543px)
+
+	#qualidades
+
+
+		.esqueça
+			margin-top: 40px

@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// 0-tools
+@import '0-tools/bootstrap';
+@import '0-tools/bourbon/bourbon';
+
+// 1-base - Base, buttons, icons, vars //
+@import '1-base/vars';
+@import '1-base/base';
+
+// 2-modules - flex-video, single-nav,
+@import '2-modules/nav';
+
+// 3-sections
+@import '3-sections/1-header';
+@import '3-sections/2-hero';
+@import '3-sections/3-about';
+@import '3-sections/4-contact';
+@import '3-sections/5-facebook';
+@import '3-sections/6-footer';
+@import '3-sections/7-qualidades';
+@import '3-sections/8-quem';

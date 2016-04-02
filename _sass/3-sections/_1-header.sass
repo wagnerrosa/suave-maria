@@ -1,0 +1,38 @@
+.top-rect
+	width: 100%
+	padding-top: 400px
+	position: absolute
+	top: 0
+	left: 0
+	z-index: 0
+	background-color: $v-1
+	overflow: hidden
+
+	&:after
+		content: ''
+		display: block
+		background: white
+		height: 400px
+		width: 8000px
+		position: absolute
+		z-index: 1
+		bottom: -50%
+		left: 50%
+		margin-left: -4000px
+		transform: rotate(-6deg)
+
+#header
+	position: relative
+	margin-bottom: 30px
+	height: 80px
+	z-index: 5
+
+	.logotipo
+		max-width: 180px
+		color: $v-4
+		display: block
+		margin: 0 auto
+		padding-top: 30px
+		font-family: $logo-font
+		&:hover
+			color: $v-3

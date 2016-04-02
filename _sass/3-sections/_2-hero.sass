@@ -1,0 +1,64 @@
+
+#hero
+
+	.header-title-rule
+		border-top: 2px solid rgba(0,0,0, 0.15)
+		width: 100px
+		margin: 0px 0px 30px
+
+	.header-head
+		h2
+			font-size: 28px
+			line-height: 1.38
+			margin-bottom: 20px
+			font-weight: 400
+	.muted
+		font-size: 12px
+		font-weight: 400
+		color: rgba(0, 0, 0, 0.5)
+		margin: 20px 0
+		max-width: 300px
+
+	.slogan
+		z-index: 5
+		margin-right: -20px
+		margin-left: 20px
+
+	.video
+		float: right
+		z-index: 5
+
+.black
+	color: black
+
+/* center and adjust the video contents on smaller devices */
+@media (min-width: 768px) 
+	#hero
+		.header-title-rule-mobile
+			display: none
+
+		.slogan
+			margin: 0
+
+@media (max-width: 767px) 
+	#hero
+		.header-title-rule-mobile
+			border-top: 2px solid rgba(0,0,0, 0.15)
+			width: 100px
+			margin: 0px 0px 30px
+
+		.header-title-rule
+			display: none
+
+		.header-head
+			h2
+				font-size: 21px
+
+@media (max-width: 545px) 
+
+	#hero
+		.video
+			float: none
+
+
+	
