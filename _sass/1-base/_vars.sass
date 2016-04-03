@@ -18,6 +18,11 @@ $a-2: #a8dba8
 $a-3: #79bd9a
 $a-4: #3b8686
 
+$roxo: #77416A
+$roxo2: #e52054
+$marrom: rgba(128, 81, 0, 0.4)
+$amarelo: #F2B121
+
 //  Fonts
 $roboto: 'Roboto', sans-serif
 $logo-font: 'Montez', cursive
@@ -27,3 +32,11 @@ body
 	font-family: $roboto
 	line-height: 1.6
 	color: $v-4
+
+//  Mixins
+
+@mixin border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius

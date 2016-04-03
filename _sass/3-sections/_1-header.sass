@@ -24,15 +24,34 @@
 #header
 	position: relative
 	margin-bottom: 30px
-	height: 80px
+	width: 100%
+	height: 87px
 	z-index: 5
+	background-image: url("/assets/img/large_leather.png")	
+	border-bottom: 0.1px solid rgba(216, 203, 110, 0.4)
+	background-color: rgba(128, 81, 0, 0.4)
+	.fundo
+		background-color: rgba(128, 81, 0, 0.4)
+		width: 100%
+		height: 100%
+		position: absolute
 
 	.logotipo
-		max-width: 180px
-		color: $v-4
+		background-image: url("/assets/img/roughcloth.png")
+		position: relative
+		max-width: 200px
+		color: rgba(140,114,70,0.8)
 		display: block
-		margin: 0 auto
-		padding-top: 30px
+		margin: 15px auto 0
 		font-family: $logo-font
+		@include border-radius(5px)
+		background-color: rgba(128, 81, 0, 0.4)
 		&:hover
-			color: $v-3
+			// color: white
+		h1
+			background-color: rgba(216, 203, 110, 0.4)
+			padding: 7px 6px
+			text-align: center
+
+	
+
