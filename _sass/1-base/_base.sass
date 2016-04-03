@@ -8,9 +8,24 @@ section
 
 .section-title-rule
 	width: 100px
-	border-top: 2px solid $v-4
+	border-top: 2px solid $verde
 	margin: 10px auto 30px
 
 .wrapper
 	position: relative
 
+.botao-oval
+	padding: 5px 25px
+	border: 2px solid $amarelo
+	text-decoration: none
+	color: $amarelo
+	@include border-radius(20px)
+	&:hover
+		text-decoration: none
+		color: white
+		background-color: $amarelo
+		opacity: 0.8
+
+.botao-center
+	text-align: center
+	margin: 30px
