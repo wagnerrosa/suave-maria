@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+	<body>
+		<div class="wrapper" id="conselhos">
+			{% include sections/1-header.html %}
+			<section id="corpo-conselhos">
+				<div class="container">
+					<div class="row centralizado">
+						<div class="col-sm-12">
+							{{ content }}
+						</div>
+					</div>
+				</div>
+			</section>
+			{% include sections/10-facebook.html %}
+
+			{% include sections/11-footer.html %}
+			{% include foot.html %}
+
+		</div>
+	</body>
+
+</html>

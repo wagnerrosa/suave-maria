@@ -1,26 +1,3 @@
-.top-rect
-	width: 100%
-	padding-top: 400px
-	position: absolute
-	top: 0
-	left: 0
-	z-index: 0
-	background-color: $v-1
-	overflow: hidden
-
-	&:after
-		content: ''
-		display: block
-		background: white
-		height: 400px
-		width: 8000px
-		position: absolute
-		z-index: 1
-		bottom: -50%
-		left: 50%
-		margin-left: -4000px
-		transform: rotate(-6deg)
-
 #header
 	position: relative
 	margin-bottom: 30px
@@ -57,9 +34,11 @@
 			background-color: rgba(216, 203, 110, 0.4)
 			padding: 7px 6px
 			text-align: center
+			transition: 0.6s
 		a
 			text-decoration: none
 			color: rgba(140,114,70,0.8)
+			transition: 0.6s
 			&:hover
 				text-decoration: none
 				color: $marsala
