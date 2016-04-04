@@ -37,7 +37,7 @@ viewBox="0 0 3768 2709"
    <rect class="fil0 str0" x="13" y="2431" width="3742" height="265" rx="132" ry="132"/>
    <polygon class="fil1 str1" points="3440,2277 3440,2277 3620,2466 3550,2489 "/>
    <polygon class="fil1 str2" points="338,2277 338,2277 157,2466 227,2489 "/>
-   <rect class="fil2 str2" x="236" y="1651" width="3359" height="648"/>
+   <rect class="fil2 str2" id="bondinho" x="236" y="1651" width="3359" height="648"/>
    <rect class="fil3 str3" x="236" y="1155" width="3359" height="496"/>
    <path class="fil4 str4" d="M196 1151l3438 0 0 -116c0,-65 -52,-117 -116,-117l-3205 0c-64,0 -117,52 -117,117l0 116z"/>
    <path class="fil5 str5" d="M1111 1736l396 0 0 -420c0,-30 -25,-56 -56,-56l-284 0c-31,0 -56,26 -56,56l0 420z"/>

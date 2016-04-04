@@ -1,7 +1,8 @@
 // .footer
 	// height: 137px
 
-
+#bondinho
+	transition: 0.6s
 #footer
 	width: 100%
 	bottom: 0
@@ -19,13 +20,16 @@
 		.lx
 			float: left
 			max-width: 350px
-			img
+			svg
 				float: left
 				max-width: 121px
 				margin-right: 25px
+				&:hover
+					#bondinho
+						fill: #3D963D
 
 			.text-footer
-				margin-top: 25px
+				margin-top: 35px
 				float: left
 				.icon
 					color: #dc6b6b
@@ -39,19 +43,25 @@
 					font-weight: 700
 					cursor: pointer
 					color: #aaa
+					transition: 0.6s
 					&:hover
-						color: #dc6b6b
+						color: #dc6b6b						
 
 
 		.botao-footer
 			float: right
 			margin-top: 43px
 			.botao-oval
-				margin-left: 10px
+				margin-left: 10px				
+				&:hover
+					opacity: 1
 
 			.btn-f
 				background-color: $amarelo
 				color: white
+				&:hover
+					background-color: white
+					color: $amarelo
 
 @media (max-width: 591px) 
 	#footer
@@ -85,7 +95,7 @@
 	#footer
 		.elements-footer
 			.lx
-				img
+				svg
 					max-width: 115px
 					margin-right: 15px
 
@@ -93,7 +103,7 @@
 	#footer
 		.elements-footer
 			.lx
-				img
+				svg
 					max-width: 105px
 					margin-right: 11px
 				.text-footer
@@ -108,14 +118,14 @@
 	#footer
 		.elements-footer
 			.lx
-				img
+				svg
 					max-width: 95px
 
 @media (max-width: 300px)
 	#footer
 		.elements-footer
 			.lx
-				img
+				svg
 					max-width: 85px
 				.text-footer
 					margin-top: 10px	
