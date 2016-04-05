@@ -1,15 +1,28 @@
 #hero-2
-	background: linear-gradient(135deg, rgba(128, 81, 0, 0.17) 0, #fff 100%)
-	background-size: cover
-	background-repeat: no-repeat
+	@include linear-gradient(135deg,#C3B08F 0%,#F5F3E4 50%,#F5F3E4 51%,#C2AF8E 100%)
 	padding: 0
 	.img-header
-		// background-image: url(#)
+		position: relative
 		padding: 40px 0px
+		&:after
+			content: ""
+			background-image: url(../img/background-hero.svg)
+			background-position: 91% 79%
+			background-repeat: no-repeat
+			background-attachment: fixed
+			position: absolute
+			top: 0
+			left: 0
+			bottom: 0
+			right: 0
+			z-index: 2
+			opacity: 0.2
+
 		.slogan
 			padding-top: 100px
 			padding-bottom: 100px
 			float: right
+			z-index: 5
 			.header-head
 				max-width: 370px
 				h2
@@ -26,22 +39,41 @@
 
 		.imagem
 			float: left
+			z-index: 5
+			padding-top: 60px
 			img
 				max-width: 100%
 
+@media (max-width: 992px)
+	#hero-2
+		.img-header
+			.imagem
+				padding-top: 145px
+
 @media (max-width: 768px)
 	#hero-2
-		.slogan
-			padding-top: 0px
-			padding-bottom: 0px
-			.header-head
-				margin: 0 auto
-				text-align: center
+		.img-header
+			.slogan
+				padding-top: 30px
+				padding-bottom: 60px
+				.header-head
+					margin: 0 auto
+					text-align: center
+			.imagem
+				padding-top: 0
+				padding-right: 85px
 
 @media (max-width: 544px)
 	#hero-2
-		.slogan
-			float: none
-		.imagem
-			img
-				max-width: 30%
+		.img-header
+			.slogan
+				float: none
+
+@media (max-width: 544px)
+
+	#hero-2
+		.img-header
+			.slogan
+			.imagem
+				padding-top: 0
+				padding-right: 40px
