@@ -7,28 +7,26 @@ viewBox="0 0 105410 71437"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:url(#id0)}
-    .fil1 {fill:url(#id1)}
+    .fil1 {fill:url(#id0)}
+    .fil0 {fill:url(#id1)}
    ]]>
   </style>
-  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="48983.9" y1="46422.5" x2="47824.8" y2="25015">
-   <stop offset="0" style="stop-opacity:1; stop-color:#FFFFED"/>
-   <stop offset="0.941176" style="stop-opacity:1; stop-color:#FAF9E9"/>
-   <stop offset="0.490196" style="stop-opacity:1; stop-color:#FBFBEA"/>
-   <stop offset="1" style="stop-opacity:1; stop-color:#F5F3E4"/>
-  </linearGradient>
-  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="91241.2" y1="53400.5" x2="98305.2" y2="62977.3">
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="39102" y1="49247.5" x2="57706.7" y2="12856.3">
    <stop offset="0" style="stop-opacity:1; stop-color:#F5F3E4"/>
-   <stop offset="0.909804" style="stop-opacity:1; stop-color:#FAF9E8"/>
-   <stop offset="0.431373" style="stop-opacity:1; stop-color:#F9F7E7"/>
-   <stop offset="1" style="stop-opacity:1; stop-color:#FFFFED"/>
+   <stop offset="0.529412" style="stop-opacity:1; stop-color:#DCD2BA"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#C3B08F"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="65460.5" y1="42082.1" x2="72524.5" y2="51658.9">
+   <stop offset="0" style="stop-opacity:1; stop-color:#C3B08F"/>
+   <stop offset="0.521569" style="stop-opacity:1; stop-color:#DCD1B9"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F5F3E4"/>
   </linearGradient>
  </defs>
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_430449712">
-   <polygon class="fil0" points="38544,71437 0,32371 58265,0 96809,39066 "/>
-   <ellipse class="fil1" cx="94773" cy="58189" rx="10637" ry="10638"/>
+  <g id="_328937656">
+   <ellipse class="fil0" cx="68993" cy="46871" rx="10637" ry="10638"/>
+   <polygon class="fil1" points="57394,13929 71028,27748 34261,48175 25781,27162 "/>
   </g>
  </g>
 </svg>

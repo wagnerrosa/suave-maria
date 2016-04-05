@@ -3,11 +3,11 @@
 	padding: 0
 	.img-header
 		position: relative
-		padding: 40px 0px
+		padding: 40px 0px 70px
 		&:after
 			content: ""
 			background-image: url(../img/background-hero.svg)
-			background-position: 91% 79%
+			background-position: 51% 55%
 			background-repeat: no-repeat
 			background-attachment: fixed
 			position: absolute
@@ -16,7 +16,7 @@
 			bottom: 0
 			right: 0
 			z-index: 2
-			opacity: 0.2
+			opacity: 0.3
 
 		.slogan
 			padding-top: 100px
@@ -36,23 +36,26 @@
 				.botao-oval
 					padding: 10px 25px
 					border: 1px solid $amarelo
+					font-size: 18px
 
 		.imagem
 			float: left
 			z-index: 5
 			padding-top: 60px
 			img
-				max-width: 100%
+				max-width: 90%
 
 @media (max-width: 992px)
 	#hero-2
 		.img-header
+			padding: 10px 0px 20px
 			.imagem
 				padding-top: 145px
 
-@media (max-width: 768px)
+@media (max-width: 767px)
 	#hero-2
 		.img-header
+			padding: 40px
 			.slogan
 				padding-top: 30px
 				padding-bottom: 60px
@@ -69,7 +72,7 @@
 			.slogan
 				float: none
 
-@media (max-width: 544px)
+@media (max-width: 500px)
 
 	#hero-2
 		.img-header
@@ -77,3 +80,26 @@
 			.imagem
 				padding-top: 0
 				padding-right: 40px
+
+@media (max-width: 404px)
+	#hero-2
+		.img-header
+			.slogan
+				.header-head
+					h2
+						font-size: 32px
+					h3
+						font-size: 15px
+					.botao-oval
+						padding: 10px 5px
+						font-size: 14px		
+
+
+@media (max-width: 309px)
+	#hero-2
+		.img-header
+			.slogan
+				.header-head
+					.botao-oval
+						padding: 10px 3px
+						font-size: 12px		
