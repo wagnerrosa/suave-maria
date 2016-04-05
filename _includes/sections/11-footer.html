@@ -2,13 +2,18 @@
 	<div class="container">
 		<div class="row elements-footer">
 			<div class="botao-footer">
-				<a href="/#contact" class="botao-oval">Contacto</a>
-				<a href="/#header" class="botao-oval btn-f">Início</a>
+				{% if page.local == "home" %}
+				<a href="#contact" id="home#footer#contacto" class="botao-oval">Contacto</a>
+				<a href="#header" id="home#footer#contacto" class="botao-oval btn-f">Início</a>
+				{% else %}
+				<a href="/#contact" id="other#footer#contacto" class="botao-oval">Contacto</a>
+				<a href="/#header" id="other#footer#contacto" class="botao-oval btn-f">Início</a>
+				{% endif %}
 			</div>
 
 			<div class="lx">
 
-				<a href="http://wagnerrosa.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="37.6766mm" height="27.0932mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+				<a id="footer#electrico" href="http://wagnerrosa.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="37.6766mm" height="27.0932mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 				viewBox="0 0 3768 2709"
 				xmlns:xlink="http://www.w3.org/1999/xlink">
 				<defs>
@@ -91,7 +96,7 @@
 				</g>
 				</svg></a>
 				<div class="text-footer">
-					<p>Built with <i class="icon ion-heart"></i> in <br>Lisbon by <a target="_blank" href="http://wagnerrosa.com">Wagner Rosa</a></p>
+					<p>Built with <i class="icon ion-heart"></i> in <br>Lisbon by <a target="_blank" id="footer#wagnerrosa" href="http://wagnerrosa.com">Wagner Rosa</a></p>
 					<span>© 2016, Suave Maria.</span>							
 				</div>
 
