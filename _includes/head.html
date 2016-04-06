@@ -43,17 +43,20 @@
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<script type="application/ld+json">
-		{
+	{
 		"@context": "http://schema.org",
 		"@type": "Product",
 		"name": "Suave Maria",
-		"brand": "Suave Maria",
 		"headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
 		"description": "{{ site.description }}",
 		"url": "{{ site.url }}"
 		"sameAs": "https://www.facebook.com/suavemaria"
 		"image": "http://suavemaria.com/assets/img/suave-vector-group.png"
+		"brand" : {
+			"@type": "Thing"
+			"name": "Suave Maria"
 		}
+	}
 	</script>	
 	<!-- [end microdata] -->
 
