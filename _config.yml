@@ -8,8 +8,7 @@
 # Site settings
 title: Suave Maria
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  site description.
+description: Através de tiras adesivas de micro cristais de silício, a luva Suave Maria permite uma depilação completamente indolor enquanto esfolia a tua pele, deixando-a suave!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://suavemaria.com" # the base hostname & protocol for your site
 
