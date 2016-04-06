@@ -44,17 +44,36 @@
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<script type="application/ld+json">
 	{
-		"@context": "http://schema.org",
-		"@type": "Product",
-		"name": "Suave Maria",
-		"description": "{{ site.description }}",
-		"url": "{{ site.url }}",
-		"sameAs": "https://www.facebook.com/suavemaria",
-		"image": "http://suavemaria.com/assets/img/suave-vector-group.png",
-		"brand" : {
-			"@type": "Thing",
-			"name": "Suave Maria"
-		}
+	  "@context" : "http://schema.org",
+	  "@type" : "Product",
+	  "name" : "Suave Maria",
+	  "description": "{{ site.description }}",
+	  "image" : "http://suavemaria.com/assets/img/suave-vector-group.png",
+	  "url": "{{ site.url }}",
+	  "sameAs": "https://www.facebook.com/suavemaria",
+	  "brand" : {
+	    "@type" : "Brand",
+	    "name" : "Suave Maria"
+	  },
+	  "offers" : {
+	    "@type" : "Offer",
+	    "price" : "0,40€ ou menos"
+	  },
+	  "review" : [ {
+	    "@type" : "Review",
+	    "author" : {
+	      "@type" : "Person",
+	      "name" : "@Maria Souza"
+	    },
+	    "reviewBody" : "&quot;Experimentei e nem queria acreditar... onde é que isto andou a minha vida toda?? Indolor, não tóxico e tira todos os pelinhos num instante!&quot;"
+	  }, {
+	    "@type" : "Review",
+	    "author" : {
+	      "@type" : "Person",
+	      "name" : "@Ana João"
+	    },
+	    "reviewBody" : "&quot;Chegou o kit, fui a correr experimentar e ADOREI! Para além de ser super prático é realmente eficaz, indolor e deixa a pele super macia. Resta-me agradecer e desejar-vos o merecido sucesso. Força Suave Maria! Esta Maria está realmente mais suave :)&quot;"
+	  } ]
 	}
 	</script>	
 	<!-- [end microdata] -->
