@@ -32,7 +32,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<!-- [end FAVICON] -->
 
-	<!-- [SEO] -->
+	<!-- [microdata] -->
 	<meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
 	<meta property="og:description" content="{{ site.description }}" />
 	<meta property="og:site_name" content="Suave Maria" />
@@ -45,14 +45,17 @@
 	<script type="application/ld+json">
 		{
 		"@context": "http://schema.org",
-		"@type": "WebSite",
+		"@type": "Product",
 		"name": "Suave Maria",
+		"brand": "Suave Maria",
 		"headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
 		"description": "{{ site.description }}",
 		"url": "{{ site.url }}"
+		"sameAs": "https://www.facebook.com/suavemaria"
+		"image": "http://suavemaria.com/assets/img/suave-vector-group.png"
 		}
 	</script>	
-	<!-- [end SEO] -->
+	<!-- [end microdata] -->
 
 	<!--[if IE]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
