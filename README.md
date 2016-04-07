@@ -1,17 +1,20 @@
-##Suave Maria
+Suave Maria
+====================
 
-A website project to a friend.
+This is the source code for the http://suavemaria.com - a website project to a friend.
 
-* Bootstrap4
-* Bourbon
-* Jekyll
-* Sass
-* formspree.io
+It's using the `github-pages` version of Jekyll.
 
---
-Falta:
+## Tools
 
- Linkar formulario, sitemap.xml, og:image
+Made on Ubuntu
+  * Jekyll
+  * Bourbon
+  * Bootstrap4 for grids
+  * formspree.io
 
---
-browser-sync start --files "_site/assets/css/*.css" --proxy "localhost:4000" --files "_posts/*.md" --files "_includes/*.html" --files "_includes/sections/*.html" --files "_layouts/*.html" --reloadDelay "2000"
+Just run 'jekyll s' and you should then be able to access the site locally on http://127.0.0.1:4000/
+
+## Notes
+
+  * Nothing important yet.
