@@ -1,5 +1,6 @@
 ---
 layout: conselhos
+title: Como usar, conselhos e precauções - Suave Maria
 ---
 
 ### Como usar/ conselhos e precauções:
@@ -20,4 +21,4 @@ No entanto o número de utilizações dependerá do tamanho dos pêlos, da densi
 
 ### Como posso ter uma Suave Maria?
 
-- [Enviamos](/#contact) via ctt para tua casa, ou podes seguir-nos na nossa página do [facebook](#facebook) onde ficar a par das feiras urbanas e pontos de venda Suave Maria. 
+- [Enviamos](/#contact) via ctt para tua casa, ou podes seguir-nos na nossa página do [facebook](#facebook) onde podes ficar a par das feiras urbanas e pontos de venda Suave Maria. 
